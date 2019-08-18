@@ -6,3 +6,5 @@ ya se agrego a la parte de backend agregar los post, usando una comprobacion en 
 en el momento solo los lista y al darle click en el post despliega la informacion, antes de eso solo muestra los titulos. tiene botones para editar y eliminar pero todavia no estan en funcionamiento.
 
 se empieza a crear la parte del servidor en node js, la conexion con mongodb, y express.
+
+ya se hicieron pruebas con para ver si el programa lee los json usando una base de datos local con node js y express, el programa recibe los datos almacenados y crea unos nuevos. se inicia a crear la db en mongodb para garantizar que los datos sean guardados de manera permanente

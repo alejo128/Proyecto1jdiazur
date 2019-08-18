@@ -1,4 +1,3 @@
-
 Se agrego crearon los directiorios para poner a funcionar la parte de angular del proyecto para hacer la parte visual de la pagina en primera instancia
 
 se fue agregando poco a poco las diferentes funcionalidades del backend de la pagina, se prueba todavia usando el comando de ng serve que ofrece angular.
@@ -8,3 +7,7 @@ en el momento solo los lista y al darle click en el post despliega la informacio
 se empieza a crear la parte del servidor en node js, la conexion con mongodb, y express.
 
 ya se hicieron pruebas con para ver si el programa lee los json usando una base de datos local con node js y express, el programa recibe los datos almacenados y crea unos nuevos. se inicia a crear la db en mongodb para garantizar que los datos sean guardados de manera permanente
+
+se logra conexion con bd en mongo, y se almacenan los datos en la base de datos al crear un post, con lo cual se garantiza persistencia de la informacion almacenada, tambien se activa el funcionamiento del boton para eliminar los post de manera exitosa, borrandolos tambien de la base de datos. se crea metodo para reescribir el id y evitar problemas a la hora de eliminar. la creacion y eliminacion de los post se actualiza en tiempo real.
+
+la edicion de los posts previamente creados se pone a funcionar de manera correcta, el post se modifica en tiempo real y se actualiza en la base de datos, adicional se configuran por separado la parte en donde se crean los post, donde se modifican y donde se leen.

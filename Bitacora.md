@@ -11,3 +11,4 @@ ya se hicieron pruebas con para ver si el programa lee los json usando una base 
 se logra conexion con bd en mongo, y se almacenan los datos en la base de datos al crear un post, con lo cual se garantiza persistencia de la informacion almacenada, tambien se activa el funcionamiento del boton para eliminar los post de manera exitosa, borrandolos tambien de la base de datos. se crea metodo para reescribir el id y evitar problemas a la hora de eliminar. la creacion y eliminacion de los post se actualiza en tiempo real.
 
 la edicion de los posts previamente creados se pone a funcionar de manera correcta, el post se modifica en tiempo real y se actualiza en la base de datos, adicional se configuran por separado la parte en donde se crean los post, donde se modifican y donde se leen.
+se reorganizan las rutas del backend y se agregan pantallas de carga.

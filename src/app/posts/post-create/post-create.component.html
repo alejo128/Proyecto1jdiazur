@@ -10,7 +10,7 @@
             minlength="3"
             placeholder="Titulo"
             #title="ngModel">
-            <mat-error *ngIf="title.invalid">Por favor ingrese un titulo .</mat-error>
+            <mat-error *ngIf="title.invalid">Por favor ingrese un titulo para el tema</mat-error>
         </mat-form-field>
         <mat-form-field>
             <textarea 
@@ -20,11 +20,11 @@
             required
             placeholder="Mensaje"
             #content="ngModel"></textarea>
-            <mat-error *ngIf="content.invalid">Por favor ingrese un tema.</mat-error>
+            <mat-error *ngIf="content.invalid">Por favor ingrese el contenido del tema</mat-error>
         </mat-form-field>    
         <button 
             mat-raised-button
             color="primary"
-            type="submit">Save post</button> 
+            type="submit">Guardar</button> 
     </form>
 </mat-card>

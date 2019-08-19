@@ -12,3 +12,16 @@ se logra conexion con bd en mongo, y se almacenan los datos en la base de datos 
 
 la edicion de los posts previamente creados se pone a funcionar de manera correcta, el post se modifica en tiempo real y se actualiza en la base de datos, adicional se configuran por separado la parte en donde se crean los post, donde se modifican y donde se leen.
 se reorganizan las rutas del backend y se agregan pantallas de carga.
+
+se pone en funcionamiento la conexion con el server para signup y log in de los usarios creados, se agrega una funcion para que solo quien crea el post lo pueda borrar y/o modificar.
+
+se corrigen errores y se agregan avisos para cuando se cree algo equivocado, se esconden botones en el sistema para cuando no sea quien creo el post, y se comprueba todo funcionando correctamente
+
+la conexion del servidor mongodb esta funcionando completamente con la aplicacion
+
+para correrlo en modo local se corren los siguientes comandos 
+1. npm install 
+2. ng serve
+3. npm run start:server
+
+los 2 ultimos comandos se corren directamente en la carpeta del proyecto por separado para poder iniciar el programa y activar el servidor de mongoDB

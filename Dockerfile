@@ -1,4 +1,4 @@
-FROM node:9.6.1
+FROM node:latest
 
 LABEL version="1.0"
 LABEL description="Web app Articulos NodeJS"
